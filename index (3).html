@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Co-Existe | Tu espacio de diversión y productividad</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Nunito+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="header">
+    <div class="container">
+      <h1 class="logo">Co-Existe</h1>
+      <p class="tagline">Tu espacio de diversión y productividad</p>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#espacios">Espacios</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="inicio" class="hero">
+    <div class="content">
+      <h2>Bienvenido a Co-Existe</h2>
+      <p>Un espacio donde la diversión y la productividad se unen. Disfruta mientras tus hijos aprenden y juegan en un entorno seguro.</p>
+      <a href="#contacto" class="btn">Agenda tu visita</a>
+    </div>
+  </section>
+
+  <section id="espacios">
+    <h2>Nuestros Espacios</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Ludoteca</h3>
+        <p>Área creativa y segura donde los niños desarrollan sus habilidades mientras se divierten.</p>
+      </div>
+      <div class="card">
+        <h3>Cafetería</h3>
+        <p>Ambiente cálido y elegante para relajarte o disfrutar un café mientras observas a tus hijos.</p>
+      </div>
+      <div class="card">
+        <h3>Coworking</h3>
+        <p>Espacio cómodo y tranquilo para trabajar con concentración y equilibrio.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Visitas Diarias</h3>
+        <p>Acceso libre a ludoteca, cafetería y coworking por horas o jornada completa.</p>
+      </div>
+      <div class="card">
+        <h3>Membresías</h3>
+        <p>Planes flexibles para familias y profesionales que buscan equilibrio cada día.</p>
+      </div>
+      <div class="card">
+        <h3>Eventos</h3>
+        <p>Organizamos cumpleaños, talleres y actividades personalizadas para todas las edades.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <p>¿Quieres visitarnos o conocer más sobre nuestros servicios? Escríbenos:</p>
+    <form>
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Tu correo" required>
+      <textarea placeholder="Tu mensaje" rows="4" required></textarea>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> Co-Existe — Tu espacio de diversión y productividad</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
