@@ -4,86 +4,158 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Co-Existe | Tu espacio de diversión y productividad</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Nunito+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header id="header">
-    <div class="container">
-      <h1 class="logo">Co-Existe</h1>
-      <p class="tagline">Tu espacio de diversión y productividad</p>
-      <nav>
-        <ul>
-          <li><a href="#inicio">Inicio</a></li>
-          <li><a href="#espacios">Espacios</a></li>
-          <li><a href="#servicios">Servicios</a></li>
-          <li><a href="#contacto">Contacto</a></li>
-        </ul>
-      </nav>
-    </div>
+
+  <!-- ENCABEZADO -->
+  <header>
+    <h1>Co-Existe</h1>
+    <p>Tu espacio de diversión y productividad</p>
+    <nav>
+      <a href="#estrategico">Estrategia</a>
+      <a href="#misional">Procesos Misionales</a>
+      <a href="#apoyo">Procesos de Apoyo</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
   </header>
 
-  <section id="inicio" class="hero">
-    <div class="content">
-      <h2>Bienvenido a Co-Existe</h2>
-      <p>Un espacio donde la diversión y la productividad se unen. Disfruta mientras tus hijos aprenden y juegan en un entorno seguro.</p>
-      <a href="#contacto" class="btn">Agenda tu visita</a>
-    </div>
+  <!-- SECCIÓN INICIAL -->
+  <section id="inicio" class="container text-center my-5">
+    <h2>Bienvenido a Co-Existe</h2>
+    <p class="lead">
+      Un lugar donde la productividad, la creatividad y la diversión se integran en un entorno natural y acogedor.
+      Aquí, los adultos encuentran un espacio para trabajar o compartir mientras los niños aprenden y se divierten.
+    </p>
   </section>
 
-  <section id="espacios">
-    <h2>Nuestros Espacios</h2>
-    <div class="cards">
-      <div class="card">
-        <h3>Ludoteca</h3>
-        <p>Área creativa y segura donde los niños desarrollan sus habilidades mientras se divierten.</p>
+  <!-- PROCESOS ESTRATÉGICOS -->
+  <section id="estrategico" class="container my-5">
+    <h2 class="text-center">Procesos Estratégicos</h2>
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Dirección Estratégica</h5>
+            <p class="card-text">
+              Planificación y liderazgo institucional para garantizar la coherencia y sostenibilidad del proyecto Co-Existe.
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="card">
-        <h3>Cafetería</h3>
-        <p>Ambiente cálido y elegante para relajarte o disfrutar un café mientras observas a tus hijos.</p>
-      </div>
-      <div class="card">
-        <h3>Coworking</h3>
-        <p>Espacio cómodo y tranquilo para trabajar con concentración y equilibrio.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="servicios">
-    <h2>Servicios</h2>
-    <div class="cards">
-      <div class="card">
-        <h3>Visitas Diarias</h3>
-        <p>Acceso libre a ludoteca, cafetería y coworking por horas o jornada completa.</p>
-      </div>
-      <div class="card">
-        <h3>Membresías</h3>
-        <p>Planes flexibles para familias y profesionales que buscan equilibrio cada día.</p>
-      </div>
-      <div class="card">
-        <h3>Eventos</h3>
-        <p>Organizamos cumpleaños, talleres y actividades personalizadas para todas las edades.</p>
+      <div class="col-md-6 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Marketing</h5>
+            <p class="card-text">
+              Estrategias de comunicación y posicionamiento para conectar con familias, profesionales y la comunidad.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
-  <section id="contacto">
-    <h2>Contáctanos</h2>
-    <p>¿Quieres visitarnos o conocer más sobre nuestros servicios? Escríbenos:</p>
-    <form>
-      <input type="text" placeholder="Tu nombre" required>
-      <input type="email" placeholder="Tu correo" required>
-      <textarea placeholder="Tu mensaje" rows="4" required></textarea>
-      <button type="submit" class="btn">Enviar</button>
-    </form>
+  <!-- PROCESOS MISIONALES -->
+  <section id="misional" class="container my-5">
+    <h2 class="text-center">Procesos Misionales</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Cuidado y Desarrollo Infantil</h5>
+            <p class="card-text">
+              Actividades lúdicas y pedagógicas diseñadas para fomentar el desarrollo integral de los niños.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Servicio de Cafetería</h5>
+            <p class="card-text">
+              Ofrecemos bebidas de especialidad y opciones saludables en un ambiente relajante y social.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Coworking</h5>
+            <p class="card-text">
+              Espacios cómodos y bien equipados para trabajar, estudiar o crear en equilibrio con la vida familiar.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
+  <!-- PROCESOS DE APOYO -->
+  <section id="apoyo" class="container my-5">
+    <h2 class="text-center">Procesos de Apoyo</h2>
+    <div class="row">
+      <div class="col-md-3 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Recursos Humanos</h5>
+            <p class="card-text">
+              Selección, capacitación y bienestar del personal que hace posible Co-Existe.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Tecnologías de la Información</h5>
+            <p class="card-text">
+              Soporte técnico y digitalización de procesos para optimizar la experiencia de los usuarios.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Gestión Administrativa</h5>
+            <p class="card-text">
+              Organización operativa que garantiza el funcionamiento eficiente y ordenado de las actividades.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Gestión Financiera</h5>
+            <p class="card-text">
+              Control presupuestario y manejo responsable de los recursos institucionales.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="container my-5">
+    <h2 class="text-center">Contáctanos</h2>
+    <p class="text-center">
+      Si deseas conocer más sobre nuestros servicios o agendar una visita, estamos encantados de atenderte.
+    </p>
+    <div class="text-center mt-3">
+      <a href="mailto:hola@co-existe.ec" class="btn-main">✉️ Escribir al correo</a>
+    </div>
+  </section>
+
+  <!-- PIE DE PÁGINA -->
   <footer>
-    <p>© <span id="year"></span> Co-Existe — Tu espacio de diversión y productividad</p>
+    <p>© 2025 Co-Existe | Tu espacio de diversión y productividad</p>
   </footer>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>
