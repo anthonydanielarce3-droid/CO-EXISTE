@@ -68,6 +68,14 @@ section h2 {
 }
 .card-text { color: #444; }
 
+/* IMÁGENES */
+.card-img-top {
+  height: 240px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
 /* FOOTER */
 footer {
   background-color: #8FB995;
